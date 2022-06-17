@@ -1,3 +1,16 @@
+# Scrum Poker
+
+## Description
+Due to the fact that there are many apps for scrum poker but they are either unintuitive or they cost something, I decided to implement a scrum poker application with SolidJS.
+I will not concentrate on the frontend so I will be using the SUID library for UI components. In order to have a simultaneous communication, I will be using the [socket.io](https://socket.io/) library. The application should be easy to use and should not require everyone to sign up, only the creator of a scrum poker session needs to be registered. 
+
+For future it would be nice to integrate Jira and other Project Management Tools so that the user does not have to switch between tabs but has everything in one place. 
+
+TBD 
+- Designs 
+- Sockets 
+- Testing
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
